@@ -34,5 +34,5 @@ class AgentConversation():
         return chain
     
     def run(self, question: str) -> None:
-        context = self.__db.similarity_search(question)
+        context = self.__db.similarity_search(question, k=2)
         return self.__chain.run(input_documents=context, question=question)

@@ -1,12 +1,10 @@
 import streamlit as st
-from UI.Chat import Chat
-
-# chabot-application-ppgspi
+from UI.Login import Login
 
 class Application:
     
     def __init__(self) -> None:
-        pass
+        self.__login = Login()
     
     def render(self) -> None:
         st.markdown("""
@@ -20,7 +18,7 @@ class Application:
                 #stDecoration {display:none;}
             </style>
         """, unsafe_allow_html=True)
-        Chat().render()
+        self.__login.render()
         
 if __name__ == "__main__":
     Application().render()
