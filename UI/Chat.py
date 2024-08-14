@@ -42,9 +42,10 @@ class Chat():
                 
                     message_placeholder.markdown(full_response + "▌")
                 
-                message_placeholder.markdown(full_response)
+                # message_placeholder.markdown(full_response)
+                message_placeholder.markdown(result)
             
-            st.session_state.messages.append({"role": "assistant", "content": full_response})
+            st.session_state.messages.append({"role": "assistant", "content": result})
             
 if __name__ == "__main__":
     Chat().render()

@@ -1,0 +1,1 @@
+Fallback = """Desculpe mas não tenho a informação desejada. Recomendo consultar o edital completo do Mestrado em Sistemas e Processos Industriais 2025 através do site https://www.unisc.br/pt/cursos/todos-os-cursos/mestrado-doutorado/mestrado/mestrado-em-sistemas-e-processos-industriais/informacoes-para-inscricao."""

@@ -3,11 +3,12 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.chains.question_answering import load_qa_chain
 from .PromptTemplate import PROMPT_TEMPLATE
+from .DefaultFallback import Fallback
 from db.Db import Db
 
 class AgentConversation():
     
-    def __init__(self, azure_openai: AzureOpenAI, verbose: bool = True) -> None:
+    def __init__(self, azure_openai: AzureOpenAI, verbose: bool = False) -> None:
         self.__azure_openai = azure_openai
         self.__CHAIN_TYPE = "stuff"
         self.__verbose = verbose
@@ -34,5 +35,19 @@ class AgentConversation():
         return chain
     
     def run(self, question: str) -> None:
-        context = self.__db.similarity_search(question, k=2)
-        return self.__chain.run(input_documents=context, question=question)
+        context = self.__db.similarity_search_with_score(question, k=2)
+        documents = []
+        
+        # print("------------------\n")
+        # print(f"Pergunta: {question}")
+        for doc, score in context:
+            # print(f"* [Score={score}]\n")
+            if score < 1.19:
+                documents.append(doc)
+        # print(f"Tamanho da lista de documentos: {len(documents)}")
+        # print("------------------\n\n")
+        
+        if len(documents) == 0:
+            return Fallback
+        
+        return self.__chain.run(input_documents=documents, question=question)
