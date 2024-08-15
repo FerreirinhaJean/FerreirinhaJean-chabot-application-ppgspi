@@ -13,6 +13,17 @@ class Chat():
         )
             
     def render(self):
+        st.markdown("""
+        <style>
+               .block-container {
+                    padding-top: 0rem;
+                    margin-top: -3.5rem;
+                    padding-bottom: 0rem;
+                    padding-left: 4rem;
+                    padding-right: 0rem;
+                }
+        </style>
+        """, unsafe_allow_html=True)
         st.title("💬 AI Assistant Unisc - PPGSPI")
         
         if "messages" not in st.session_state:
