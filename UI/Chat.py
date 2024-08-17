@@ -40,7 +40,10 @@ class Chat():
             with st.chat_message("user"):
                 st.markdown(question)
             
-            result = st.session_state.chatbot.run(question)
+            result, source = st.session_state.chatbot.run(question)
+            result = result.replace("`", "")
+            result += f"___\n**Fontes:**\n {source}"
+            print(f"RESPOSTA:\n {result}")
             
             with st.chat_message("assistant"):
                 message_placeholder = st.empty()
@@ -54,7 +57,7 @@ class Chat():
                     message_placeholder.markdown(full_response + "▌")
                 
                 # message_placeholder.markdown(full_response)
-                message_placeholder.markdown(result)
+                message_placeholder.markdown(result)                
             
             st.session_state.messages.append({"role": "assistant", "content": result})
             
