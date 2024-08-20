@@ -44,7 +44,7 @@ class Chat():
             
             result, source = st.session_state.chatbot.run(question)
             result = result.replace("`", "")
-            result += f"___\n**Fontes:**\n {source}"
+            result += f"\n___\n**Fontes:**\n {source}"
             print(f"RESPOSTA:\n {result}")
             
             with st.chat_message("assistant"):

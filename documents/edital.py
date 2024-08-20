@@ -198,5 +198,80 @@ E-mail: ppgspi@unisc.br
 Site: www.unisc.br/ppgspi
 Horário de atendimento telefônico: segunda a sexta-feira, das 8h às 12h e das 13h30 às 17h30."""
     },
+    {
+    "section": 1.0,
+    "section_name": "ANEXO II - O Programa",
+    "pages": [10],
+    "content": """Programa de Incentivo à Pós-Graduação
+---    
+O Programa tem por objetivo fomentar a Pós-Graduação Stricto Sensu, por meio da concessão de bolsa desconto de 50% (cinquenta por cento) na mensalidade dos alunos de Mestrado. Este
+benefício está previsto para 1 (um) aluno de cada PPG da Unisc. Para que este benefício seja ofertado, o Programa de Pós-Graduação deve ter ao menos 3 (três) alunos matriculados na
+turma de 2024. Esta bolsa estará disponível apenas aos candidatos aprovados no processo seletivo regular do Programa, estando a implementação vigente até o mês subsequente de início
+das aulas. A Pró-Reitoria Acadêmica se reserva ao direito de suspender o oferecimento da cota, mediante análise do número total de bolsas concedidas ao Programa, pelos órgãos de fomento."""
+    },
+    {
+    "section": 2.0,
+    "section_name": "ANEXO II - O Candidato",
+    "pages": [10],
+    "content": """Programa de Incentivo à Pós-Graduação
+---
+O candidato indicado pelo Programa de Pós-graduação deve ter sido aprovado na seleção e atender os seguintes requisitos cumulativamente:
+    2.1 não estar em débito administrativo com a Instituição;
+    2.2 possuir renda mensal familiar per capita de até 03 (três) salários mínimos;
+    2.3 não estar recebendo outra modalidade de bolsa."""
+    },
+    {
+    "section": 3.0,
+    "section_name": "ANEXO II - Comprovantes de Renda",
+    "pages": [10, 11, 12],
+    "content": """Programa de Incentivo à Pós-Graduação
+---
+Para análise da concessão, o candidato deve apresentar comprovantes de renda de todos os integrantes do grupo familiar, de acordo com a situação apresentada:
+    3.1) SE ASSALARIADO
+        - Cópia dos últimos três contracheques (em caso de renda variável, apresentar os últimos seis);
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS.
+    3.2) SE DESEMPREGADO OU SE NUNCA TRABALHOU
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS, para maiores de 18 anos;
+        - Cópia do comprovante do recebimento de seguro desemprego, caso tenha recebido até o mês anterior.
+    3.3) SE TRABALHADOR INFORMAL, AUTÔNOMO OU PROFISSIONAL LIBERAL
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS, para maiores de 18 anos, para comprovar a existência ou não de outro vínculo empregatício;
+        - Apresentar cópia da Escritura Pública de Comprovação de Renda, informando também o tipo de atividade realizada.
+    3.4) SE MICRO EMPRESÁRIO INDIVIDUAL:
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS, para maiores de 18 anos, para comprovar a existência ou não de outro vínculo empregatício;
+        - Cópia da Declaração Anual para o Microempresário Individual (Relação do faturamento).
+        - Cópia da Escritura Pública Declaratória de Renda.
+    3.5) SE DIRETOR /SÓCIO DE EMPRESA (microempresas e empresas de pequeno porte):
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS, para maiores de 18 anos, para comprovar a existência ou não de outro vínculo empregatício;
+        - Cópia da Declaração de Informações Socioeconômicas e Fiscais – DEFIS.
+        - Cópia da Declaração Comprobatória de Percepção de Rendimentos, dos últimos três meses – DECORE (somente documento original), assinada por contador inscrito no CRC.
+    3.6) SE DIRETOR/SÓCIO DE EMPRESA (SOCIEDADE EM COTA DE PARTICIPAÇÃO (SCP):
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS, para maiores de 18 anos, para comprovar a existência ou não de outro vínculo empregatício;
+        - Cópia da Declaração Comprobatória de Percepção de Rendimentos, dos últimos três meses – DECORE (somente documento original), assinada por contador inscrito no CRC.
+    3.7) SE APOSENTADO, PENSIONISTA OU SEGURADO
+        - Cópia do comprovante de recebimento da aposentadoria, pensão ou benefício, com identificação do beneficiário no comprovante, que pode ser retirado em www.previdenciasocial.gov.br, em Extrato de Pagamento de Benefício;
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS, para maiores de 18 anos, para comprovar a existência ou não de outro vínculo empregatício.
+    3.8) SE AGRICULTOR OU PRODUTOR RURAL
+        - Apresentar cópia da Declaração emitida pelo respectivo Sindicato, constando os rendimentos brutos dos últimos três anos, informando o que produz, quanto produz, em quantos hectares produz e o grupo familiar que depende dos mesmos (apresentar somente o documento original);
+        - Apresentar cópia completa do ITR (Imposto Territorial Rural) do último exercício;
+        - Cópia da Carteira de Trabalho das seguintes páginas: xerox da página de identificação, frente e verso, da página contendo o último contrato de trabalho e da página seguinte em branco. Caso não possua Carteira de Trabalho, retirar uma CNIS (Consulta Nacional de Informações Sociais), no INSS, para maiores de 18 anos, para comprovar a existência ou não de outro vínculo empregatício;
+        - Se existir outros rendimentos (salário) relativos ao mercado informal ou de vendas fora do talão de produtor, apresentar cópia da Escritura Pública de Comprovação de Renda, informando também o tipo de atividade realizada.
     
+    IMPORTANTE:
+        - Caso exista empresa em nome de algum dos componentes do grupo familiar, apresentar também a cópia da Declaração de Imposto de Renda de Pessoa Jurídica, com o respectivo recibo de entrega da DIR. Se a empresa estiver encerrada ou inativa, apresentar cópia do documento comprobatório desta situação;
+        - Se receber auxílio de terceiros ou pensão alimentícia no grupo familiar – apresentar cópia do documento que comprove o recebimento de auxílio/pensão alimentícia, informando o valor recebido, juntamente com a cópia do comprovante de depósito da pensão;
+        - Se o candidato declarar-se independente ou residir sozinho e/ou com outros parentes, mas depender financeiramente de seus pais, deverá anexar a cópia da documentação dos mesmos."""
+    },
+    {
+    "section": 4.0,
+    "section_name": "ANEXO II - Dos Compromissos Assumidos",
+    "pages": [12, 13],
+    "content": """Programa de Incentivo à Pós-Graduação
+---
+O aluno selecionado para esta modalidade de bolsa, após análise dos documentos apresentados, assume os seguintes compromissos:
+    4.1 Se aluno de Mestrado, depositar a versão final da dissertação na Secretaria do Programa, agendando defesa, ao final de 24 (vinte e quatro) meses a contar do início do curso;
+    4.2 Dedicar, no mínimo, 12 (doze) horas semanais ao projeto, devendo a frequência e a produtividade ser controlada pela Comissão de Bolsas do PPG;
+    4.3 Fazer referência ao apoio do Edital do Programa de Incentivo à Pós-Graduação Stricto Sensu da Unisc nas publicações e trabalhos apresentados;
+    4.4 Apresentar, a cada semestre de concessão da bolsa, relatórios de desempenho assinados por ele e pelo orientador, a serem apreciados pela Comissão de Bolsas do Programa, visando o acompanhamento e a manutenção da bolsa.
+    4.5 Caso ocorra o cancelamento da bolsa desconto, por iniciativa do aluno ou por descumprimento dos compromissos previstos neste edital, os valores descontados da mensalidade devem ser devolvidos à instituição, por parte do aluno, atualizados pelo INPC."""
+    },
 ]
