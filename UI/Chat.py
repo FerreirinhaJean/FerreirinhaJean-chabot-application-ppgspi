@@ -11,7 +11,7 @@ class Chat():
             os.getenv("AZURE_OPENAI_DEPLOYMENT"),
             os.getenv("AZURE_OPENAI_DEPLOYMENT_EMBEDDING")
         )
-        self.__gretting_message = "Bem-vindo ao assistente virtual da Pós-Graduação em Processos e Sistemas Industriais da UNISC! Estou aqui para ajudar a esclarecer todas as suas dúvidas sobre o processo seletivo, conforme o edital do programa. Sinta-se à vontade para perguntar sobre inscrições, prazos, documentos necessários e qualquer outro detalhe que precise. Vamos começar?"
+        self.__greeting_message = "Bem-vindo ao assistente virtual da Pós-Graduação em Processos e Sistemas Industriais da UNISC! Estou aqui para ajudar a esclarecer todas as suas dúvidas sobre o processo seletivo, conforme o edital do programa. Sinta-se à vontade para perguntar sobre inscrições, prazos, documentos necessários e qualquer outro detalhe que precise. Vamos começar?"
             
     def render(self):
         st.markdown("""
@@ -29,7 +29,7 @@ class Chat():
         
         if "messages" not in st.session_state:
             st.session_state.messages = []
-            st.session_state.messages.append({"role": "assistant", "content": self.__gretting_message})
+            st.session_state.messages.append({"role": "assistant", "content": self.__greeting_message})
             st.session_state.chatbot = AgentConversation(self.__azure_openai)
         
         for message in st.session_state.messages:
