@@ -16,17 +16,17 @@ edital = [
     {
         "section": 3.0,
         "section_name": "CRONOGRAMA",
-        "pages": [1],
+        "pages": [1, 2],
         "content": """ 
-Etapa 1: Inscrição e envio digital dos documentos. Período: de 12/09 a 16/11/2023. Local/Responsável: Site do Programa.
-Etapa 2: Análise de currículo e da carta de intenções. Período: de 23/11/2023 a 07/12/2023. Local/Responsável: Comissão de seleção.
-Etapa 3: Homologação das inscrições e divulgação do horário das entrevistas no site do programa. Período: 23/11/2023. Local/Responsável: Comissão de seleção.
-Etapa 4: Entrevistas. Período: 29/11/2023. Local/Responsável: Comissão de seleção.
-Etapa 5: Divulgação dos candidatos aprovados. Período: até 08/12/2023. Local/Responsável: Site do Programa/e-mail dos candidatos.
-Etapa 6: Matrículas 1ª chamada alunos sem bolsa. Período: 13/12/2023 e 14/12/2023. Local/Responsável: Online.
-Etapa 7: Matrículas 2ª chamada alunos sem bolsa. Período: 21/12/2023. Local/Responsável: Online.
-Etapa 8: Matrículas bolsistas. Período: 04/01/2024 e 05/01/2024. Local/Responsável: Central de Atendimento.
-Etapa 9: Início das Aulas. Período: 14/03/2024. Local/Responsável: Bloco 53."""
+Etapa 1: Inscrição e envio digital dos documentos. Período: de 05/09/2024 a 18/11/2024. Local/Responsável: Site do Programa.
+Etapa 2: Análise de currículo e da Proposta de Pesquisa. Período: de 20/11/2024 a 25/11/2024. Local/Responsável: Comissão de seleção.
+Etapa 3: Homologação das inscrições e divulgação do horário das entrevistas no site do programa. Período: 27/11/2024. Local/Responsável: Comissão de seleção.
+Etapa 4: Entrevistas. Período: 02/12/2024 a 04/12/2024. Local/Responsável: Comissão de seleção.
+Etapa 5: Divulgação dos candidatos aprovados. Período: até 09/12/2024. Local/Responsável: Site do Programa/e-mail dos candidatos.
+Etapa 6: Matrículas 1ª chamada alunos sem bolsa. Período: 12/12/2024 e 13/12/2024. Local/Responsável: Online.
+Etapa 7: Matrículas 2ª chamada alunos sem bolsa. Período: 19/12/2024. Local/Responsável: Online.
+Etapa 8: Matrículas bolsistas. Período: 09/01/2025 e 10/01/2025. Local/Responsável: Presencial - Central de Atendimento.
+Etapa 9: Início das Aulas. Período: 13/03/2025. Local/Responsável: Bloco 53."""
     },
     {
         "section": 4.0,
@@ -143,11 +143,11 @@ c) Contrato de Prestação de Serviços Educacionais (apenas para candidatos(as)
         "content": """São disponibilizadas as seguintes condições de parcelamento, sendo que a primeira parcela será
 paga no ato da matrícula e a segunda, no mês de início das aulas.
 Mestrado:
-- 24 parcelas de R$ 2.226,00*
-- 30 parcelas de R$ 1.890,86*
-- 36 parcelas de R$ 1.641,68*
+- 24 parcelas de R$ 2.348,33*
+- 30 parcelas de R$ 1.994,78*
+- 36 parcelas de R$ 1.731,91*
 
-À vista R$ 45.410,40
+À vista R$ 47.960,00
 
 OBS: *A partir da 13ª parcela, as parcelas serão reajustadas pela variação anual do INPC.
 Para pagamento à vista, é concedido 15% de desconto"""
@@ -155,7 +155,7 @@ Para pagamento à vista, é concedido 15% de desconto"""
     {
         "section": 11.0,
         "section_name": "BOLSAS, FINANCIAMENTO E DESCONTOS",
-        "pages": [5],
+        "pages": [5, 6],
         "content": """
 11.1 - Há previsão de disponibilização de bolsas de estudo nas seguintes modalidades:
     11.1.1 - Há previsão de disponibilização de bolsas de estudo de acordo com a confirmação das cotas pelas Agências de Fomento (Capes e CNPq).
@@ -172,7 +172,7 @@ Para pagamento à vista, é concedido 15% de desconto"""
     {
         "section": 12.0,
         "section_name": "TURNO DAS AULAS",
-        "pages": [5, 6],
+        "pages": [6],
         "content": """As disciplinas podem ocorrem nas quintas-feiras à noite, sextas-feiras tarde e noite e, excepcionalmente, aos sábados no turno da manhã. As aulas poderão ser presenciais e/ou presenciais remotas síncronas ou assíncronas.
 Entende-se por presenciais as atividades realizadas em salas de aula ou em laboratórios, nas quais há presença simultânea do professor e dos discentes. Entende-se por presenciais remotas síncronas as aulas remotas ou demais atividades virtuais
 em que ocorra a interação simultânea entre professores e discentes, porém, sem estarem no mesmo espaço físico. Entende-se por presenciais remotas assíncronas as atividades práticas supervisionadas em momentos escolhidos pelo discente, mas sem a necessidade da presença simultânea do
@@ -201,7 +201,7 @@ Horário de atendimento telefônico: segunda a sexta-feira, das 8h às 12h e das
     {
     "section": 1.0,
     "section_name": "ANEXO II - O Programa",
-    "pages": [10],
+    "pages": [9],
     "content": """Programa de Incentivo à Pós-Graduação
 ---    
 O Programa tem por objetivo fomentar a Pós-Graduação Stricto Sensu, por meio da concessão de bolsa desconto de 50% (cinquenta por cento) na mensalidade dos alunos de Mestrado. Este
@@ -212,7 +212,7 @@ das aulas. A Pró-Reitoria Acadêmica se reserva ao direito de suspender o ofere
     {
     "section": 2.0,
     "section_name": "ANEXO II - O Candidato",
-    "pages": [10],
+    "pages": [9],
     "content": """Programa de Incentivo à Pós-Graduação
 ---
 O candidato indicado pelo Programa de Pós-graduação deve ter sido aprovado na seleção e atender os seguintes requisitos cumulativamente:
@@ -223,7 +223,7 @@ O candidato indicado pelo Programa de Pós-graduação deve ter sido aprovado na
     {
     "section": 3.0,
     "section_name": "ANEXO II - Comprovantes de Renda",
-    "pages": [10, 11, 12],
+    "pages": [9, 10, 11],
     "content": """Programa de Incentivo à Pós-Graduação
 ---
 Para análise da concessão, o candidato deve apresentar comprovantes de renda de todos os integrantes do grupo familiar, de acordo com a situação apresentada:
@@ -264,7 +264,7 @@ Para análise da concessão, o candidato deve apresentar comprovantes de renda d
     {
     "section": 4.0,
     "section_name": "ANEXO II - Dos Compromissos Assumidos",
-    "pages": [12, 13],
+    "pages": [11, 12],
     "content": """Programa de Incentivo à Pós-Graduação
 ---
 O aluno selecionado para esta modalidade de bolsa, após análise dos documentos apresentados, assume os seguintes compromissos:
