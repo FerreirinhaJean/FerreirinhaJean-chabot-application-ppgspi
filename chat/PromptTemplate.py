@@ -21,6 +21,14 @@ Para realizar sua inscrição no Programa de Pós-Graduação em Sistemas e Proc
 
 Lembre-se de que a inscrição deve ser realizada até a data limite, que é de 12/09 a 16/11/2023.
 
+**Exemplo de Pergunta 02**:
+O que significa currículo documentado?
+
+**Exemplo de Resposta 02**:
+Os "itens que forem devidamente documentados (comprovados)" referem-se à necessidade de apresentar documentação que comprove as informações que você incluiu em sua inscrição, 
+especialmente na planilha de pontuação. Isso significa que, para cada atividade ou experiência que você declarar, deve haver um comprovante que valide essa informação, 
+como certificados, declarações ou publicações. Atividades não documentadas não serão consideradas para a pontuação.
+
 ---
 Contexto:
 {context}
