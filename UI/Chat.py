@@ -47,6 +47,11 @@ class Chat:
             with st.chat_message(message["role"]):
                 st.markdown(message["content"])
 
+                if message["role"] == "assistant" and "source" in message:
+                    for src in message["source"]:
+                        with st.popover(src["title"]):
+                            st.caption(src["content"])
+
         if question := st.chat_input("Pergunte qualquer coisa!"):
             st.session_state.messages.append({"role": "user", "content": question})
 
@@ -55,7 +60,7 @@ class Chat:
 
             result, source = st.session_state.chatbot.run(question)
             result = result.replace("`", "")
-            result += f"\n___\n**Fontes:**\n {source}"
+            result += f"\n___\n**Fontes:**\n\nDisponível em: [Mestrado em Sistemas e Processos Industriais - UNISC](https://www.unisc.br/pt/cursos/todos-os-cursos/mestrado-doutorado/mestrado/mestrado-em-sistemas-e-processos-industriais/informacoes-para-inscricao)"
 
             with st.chat_message("assistant"):
                 message_placeholder = st.empty()
@@ -70,7 +75,13 @@ class Chat:
 
                 message_placeholder.markdown(result)
 
-            st.session_state.messages.append({"role": "assistant", "content": result})
+                for src in source:
+                    with st.popover(src["title"]):
+                        st.caption(src["content"])
+
+            st.session_state.messages.append(
+                {"role": "assistant", "content": result, "source": source}
+            )
 
             if st.session_state.first_message:
                 self.__mongo_db.create_conversation(
