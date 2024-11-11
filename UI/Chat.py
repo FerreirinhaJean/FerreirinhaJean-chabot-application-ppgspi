@@ -52,7 +52,19 @@ class Chat:
                         with st.popover(src["title"]):
                             st.caption(src["content"])
 
-        if question := st.chat_input("Pergunte qualquer coisa!"):
+        if question := st.chat_input("Pergunte sobre sua dúvida em relação ao processo seletivo do PPGSPI"):
+            ## Caso não existe ainda o mesages ele recria
+            if "messages" not in st.session_state:
+                st.session_state.messages = []
+                st.session_state.messages.append(
+                    {"role": "assistant", "content": self.__greeting_message}
+                )
+                st.session_state.first_message = True
+            if "chatbot" not in st.session_state:
+                st.session_state.chatbot = AgentConversation(self.__azure_openai)
+            if "id_conversation" not in st.session_state:
+                st.session_state.id_conversation = str(uuid.uuid4())
+
             st.session_state.messages.append({"role": "user", "content": question})
 
             with st.chat_message("user"):
